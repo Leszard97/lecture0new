@@ -1,12 +1,68 @@
-<!DOCTYPE html>
-<html>
-	<head>
+<!DOCTYPE html> <!-- our way of telling the browser we're using html 5 -- >
+<html> <!-- this is the beginning of the webpage -- >
+	
+	<head> <!-- used for metadata. not usually displayed -->
 		<title>My Webpage</title>
-	</head>
+	</head> 
 	
 	<body>
-		Ayo what's up!
-		Hello Again!
-		Captain crunch!
+		<h1 style="color: darkmagenta;text-align: center;"> Welcome to my Webpage!</h1> 
+		<!-- h1 is the largest heading -->
+		<h2>Hello Again!</h2>
+		<h3>Captain crunch!</h3>
+
+		<p>Hello World. This is a paragraph of text.</p>
+
+		An unordered List:
+		<ul>
+			<li>Lion</li>
+			<li>Tiger</li>
+			<li>Bear</li>
+		</ul>
+
+		An ordered list:
+		<ol>
+			<li>Lion</li>
+			<li>Tiger</li>
+			<li>Bear</li>
+		</ol>
+
+
+		<img src="cat.jpeg" width = "95%" > 
+		<!-- no end tag for the image. no need for begin/end -->
+		<!-- src is called the source attribute. height and width are other attributes -->
+
+
+		<h1>Presidents</h1>
+		<table>
+			<tr>
+				<th>First Name</th> <!-- th means table header -->
+				<th>Last Name</th>
+				<th>Years in Office</th>
+			</tr>
+			<tr>
+				<td>George</td> <!-- td means table data -->
+				<td>Washington</td>
+				<td>1789-1797</td>
+			</tr>
+			<tr>
+				<td>John</td>
+				<tds>Adams</td>
+				<td>1797-1801</td>
+			</tr>
+		</table>
+
+
+		<form>
+			<input type="text" placeholder="Full Name" name="name">
+			<button>Submit</button>
+		</form>
+		<!-- placeholder is the faint text that appears in a text box before
+		the user acts -->
+		<!-- name is an attribute that can then be used to do stuff with the
+		information entered by the user; backend stuff-->
+
+
 	</body>
-</html>>
+
+</html> <!-- this is the end of the webpage -->

@@ -1,0 +1,20 @@
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+p {
+	color: red;
+}
+
+div {
+	background-color: teal;
+	width: 100px;
+	height: 400px;
+	margin: 30px;
+	/*margin controls the spacing between the elements outside of the teal box*/
+	padding: 20px;
+	/*padding controls the space between the text inside the teal div 
+	and the edge of the div itself so the words aren't right up against the box's
+	wall*/
+}
