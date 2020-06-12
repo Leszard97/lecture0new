@@ -10,11 +10,35 @@ p {
 div {
 	background-color: teal;
 	width: 100px;
-	height: 400px;
+	height: 500px;
 	margin: 30px;
 	/*margin controls the spacing between the elements outside of the teal box*/
-	padding: 20px;
+	padding: 5px;
 	/*padding controls the space between the text inside the teal div 
 	and the edge of the div itself so the words aren't right up against the box's
 	wall*/
+	font-family: Arial, sans-serif; /*we used both because we want this to work and
+	look the same on all different browsers. Some may not know what Arial is*/
+	font-size: 20px;
+	font-weight: bold;
+	border: 5px dotted blue;
 }
+
+#top {
+	font-size: 36px;
+}
+/*the # sign means "if the id = ". So here, we're formatting divs whose id = top*/
+
+#middle{
+	font-size: 24px;
+}
+
+#bottom{
+	font-size: 12px;
+}
+
+.name{
+	font-weight: bold;
+}
+/*the dot before name is telling it let's format everything in the class called 
+name*/
